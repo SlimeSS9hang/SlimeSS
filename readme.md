@@ -21,18 +21,31 @@
 
 ### 💾 Cài đặt
 
-Tải bản mới nhất tại [Releases](https://github.com/SlimeSS9hang/SlimeSS/releases) và chạy `SlimeSS-Setup-1.0.exe`.
+Tải bản mới nhất tại [Releases](https://github.com/SlimeSS9hang/SlimeSS/releases) và chạy `SlimeSS-Setup-1.1.exe`.
 
 Hoặc cài qua winget / Chocolatey (sắp có):
 
 ### 🆓 Giấy phép
 
 Dùng thử miễn phí **7 ngày** đầy đủ tính năng. Sau đó cần mã kích hoạt để tiếp tục sử dụng.
+SlimeSS 1.1 Có gì mới:
+
+Tính năng mới:
+
+Thêm tùy chọn "Hiện menu chính sau khi chụp/quay xong" trong Cài đặt → Hệ thống (mặc định bật). Tắt đi thì chụp/quay xong app không tự bật menu lên nữa.
+Thêm phím tắt tùy chỉnh "Mở thư mục ảnh vừa chụp" trong Tùy chỉnh phím tắt.
+Bộ cài đặt giờ tự động gỡ bản cũ trước khi cài bản mới.
+
+Sửa lỗi:
+
+Sửa lỗi bấm Ctrl+C thỉnh thoảng kích hoạt nhầm hotkey Ctrl+Alt+C.
+Sửa tên hiển thị "Chụp màn hình đang chạy" và "Mở thư mục lưu (Xuất)" (trước hiện mã thô).
+Sửa lỗi thanh trạng thái vẫn hiện "7 ngày dùng thử" sau khi đã kích hoạt.
+
 
 ### ✅ Xác thực file
 
-- **SHA256:** `243a5a63589e3b84b62f688f98ff880f6a89cb9783157027e8d568e754eee5fa`
-- **Mã verify:** `519443A3A6F09B4A`
+SHA256: 89DC3A6C40D1FEDD94A53717448F6DCE2B329184D1199036972462BB29040133
 
 ---
 
@@ -53,19 +66,30 @@ Dùng thử miễn phí **7 ngày** đầy đủ tính năng. Sau đó cần mã
 
 ### 💾 Install
 
-Download the latest release from [Releases](https://github.com/SlimeSS9hang/SlimeSS/releases) and run `SlimeSS-Setup-1.0.exe`.
+Download the latest release from [Releases](https://github.com/SlimeSS9hang/SlimeSS/releases) and run `SlimeSS-Setup-1.1.exe`.
 
 Or via winget / Chocolatey (coming soon):
 
 ### 🆓 License
 
 Free **7-day trial** with full features. An activation code is required afterwards.
+ 
+ --1.1 What's New:
 
-### ✅ File verification
+New features:
 
-- **SHA256:** `243a5a63589e3b84b62f688f98ff880f6a89cb9783157027e8d568e754eee5fa`
-- **Verify code:** `519443A3A6F09B4A`
+Added "Show main menu after capture/recording" option in Settings → System (enabled by default).
+Added customizable hotkey "Open recent captures folder" in Customize Hotkeys.
+The installer now automatically uninstalls the previous version before installing.
 
----
+Bug fixes:
+
+Fixed hotkey misfire: pressing Ctrl+C occasionally triggered Ctrl+Alt+C.
+Fixed display names "Capture running monitor" and "Open save folder (Export)" (previously showed raw IDs).
+Fixed status bar still showing "7 trial days left" after activation.
+
+### ✅
+SHA256: 89DC3A6C40D1FEDD94A53717448F6DCE2B329184D1199036972462BB29040133
+
 
 © 2026 SlimeSS. All rights reserved.
