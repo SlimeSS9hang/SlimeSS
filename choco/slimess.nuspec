@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>slimess</id>
+    <version>1.1.0</version>
+    <packageSourceUrl>https://github.com/SlimeSS9hang/SlimeSS</packageSourceUrl>
+    <owners>SlimeSS</owners>
+    <title>SlimeSS</title>
+    <authors>SlimeSS</authors>
+    <projectUrl>https://github.com/SlimeSS9hang/SlimeSS</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SlimeSS9hang/SlimeSS/main/slimess-logo.png</iconUrl>
+    <copyright>© 2026 SlimeSS. All rights reserved.</copyright>
+    <licenseUrl>https://github.com/SlimeSS9hang/SlimeSS/releases/tag/v1.1.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/SlimeSS9hang/SlimeSS</projectSourceUrl>
+    <docsUrl>https://github.com/SlimeSS9hang/SlimeSS</docsUrl>
+    <bugTrackerUrl>https://github.com/SlimeSS9hang/SlimeSS/issues</bugTrackerUrl>
+    <tags>screenshot screen-recorder capture gif admin</tags>
+    <summary>Screenshot &amp; screen recorder for Windows</summary>
+    <description>SlimeSS — Screenshot &amp; screen recording made simple.
+
+Capture fullscreen, active window, custom region, and all running windows (grid collage).
+Record screen, windows, fixed apps, or directly to GIF. Multi-monitor auto-follow,
+customizable hotkeys, files auto-organized by month/year. Free 7-day trial with full features.</description>
+    <releaseNotes>https://github.com/SlimeSS9hang/SlimeSS/releases/tag/v1.1.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\" target="tools" />
+  </files>
+</package>
